@@ -7,6 +7,11 @@ import fcntl
 import os
 import tempfile
 import json
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
+logger.debug("App starting up...")
 
 app = Flask(__name__)
 app.secret_key = "supersecretkey"
