@@ -10,6 +10,12 @@
       "award_response_status": 200
     },
     {
+      "name": "noyontagtaa",
+      "token": "noyon-tagtaa-456",   
+      "user_id": 5,
+      "logged_status": false
+    }
+    {
       "name": "Alice",
       "token": "alice-token-456",
       "user_id": 3,

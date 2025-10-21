@@ -30,7 +30,7 @@ file_handler.setFormatter(formatter)
 app.logger.addHandler(file_handler)
 app.logger.setLevel(logging.DEBUG)
 
-GAME_DURATION = 60
+GAME_DURATION = 600
 
 
 # -------------------
