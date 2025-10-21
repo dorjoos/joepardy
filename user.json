@@ -1,39 +1,94 @@
 {
   "users": [
     {
-      "name": "Dorjoo",
-      "token": "abc123",
-      "user_id": 1,
-      "logged_status": true,
-      "last_final_score": 300,
-      "award_sent": true,
-      "award_response_status": 200
-    },
-    {
-      "name": "noyontagtaa",
-      "token": "noyon-456",
-      "user_id": 5,
+      "team_name": "ТЭСВЭР",
+      "name": "Teswer",
+      "token": "Teswer-243",
+      "user_id": 18,
       "logged_status": false
     },
     {
-      "name": "dandar",
-      "token": "dandar-243",
-      "user_id": 4,
+      "team_name": "ТАСРАЛТГҮЙ",
+      "name": "Tasraltgvi",
+      "token": "Tasraltgvi-243",
+      "user_id": 19,
       "logged_status": false
     },
     {
-      "name": "Alice",
-      "token": "alice-token-456",
-      "user_id": 3,
-      "logged_status": false,
-      "last_final_score": 0,
-      "award_sent": true,
-      "award_response_status": 200
+      "team_name": "ХАРИУЦЛАГА",
+      "name": "Khariutslaga",
+      "token": "Khariutslaga-243",
+      "user_id": 20,
+      "logged_status": false
     },
     {
-      "name": "tuuguuu",
-      "token": "sda-243",
-      "user_id": 7,
+      "team_name": "СЭРЭМЖ",
+      "name": "Seremj",
+      "token": "Seremj-243",
+      "user_id": 21,
+      "logged_status": false
+    },
+    {
+      "team_name": "ЁС ЗҮЙ",
+      "name": "Yoszvi",
+      "token": "Yoszvi-243",
+      "user_id": 22,
+      "logged_status": false
+    },
+    {
+      "team_name": "ШУДАРГА",
+      "name": "Shudarga",
+      "token": "Shudarga-243",
+      "user_id": 23,
+      "logged_status": false
+    },
+    {
+      "team_name": "КИБЕР",
+      "name": "Cyber",
+      "token": "Cyber-243",
+      "user_id": 24,
+      "logged_status": false
+    },
+    {
+      "team_name": "МЭДРЭМЖ",
+      "name": "Medremj",
+      "token": "Medremj-243",
+      "user_id": 25,
+      "logged_status": false
+    },
+    {
+      "team_name": "МАНЛАЙЛАЛ",
+      "name": "Manlailal",
+      "token": "Manlailal-243",
+      "user_id": 26,
+      "logged_status": false
+    },
+    {
+      "team_name": "ТУЛГУУР",
+      "name": "Tulguur",
+      "token": "Tulguur-243",
+      "user_id": 27,
+      "logged_status": false
+    },
+    {
+      "team_name": "СОЁЛ",
+      "name": "Soyol",
+      "token": "Soyol-243",
+      "user_id": 28,
+      "logged_status": false
+    },
+    {
+      "team_name": "ДИЖИТАЛ",
+      "name": "Digital",
+      "token": "Digital-243",
+      "user_id": 29,
+      "logged_status": false
+    },
+    {
+      "team_name": "ДАРХЛАА",
+      "name": "Darkhlaa",
+      "token": "Darkhlaa-243",
+      "user_id": 30,
       "logged_status": false
     }
   ]
