@@ -4,17 +4,23 @@
       "name": "Dorjoo",
       "token": "abc123",
       "user_id": 1,
-      "logged_status": false,
+      "logged_status": true,
       "last_final_score": 300,
       "award_sent": true,
       "award_response_status": 200
     },
     {
       "name": "noyontagtaa",
-      "token": "noyon-tagtaa-456",   
+      "token": "noyon-456",
       "user_id": 5,
       "logged_status": false
-    }
+    },
+    {
+      "name": "dandar",
+      "token": "dandar-243",
+      "user_id": 4,
+      "logged_status": false
+    },
     {
       "name": "Alice",
       "token": "alice-token-456",
@@ -23,208 +29,12 @@
       "last_final_score": 0,
       "award_sent": true,
       "award_response_status": 200
-    }
-  ],
-  "submissions": [
-    {
-      "success": true,
-      "data": {
-        "challenge": {
-          "category": "UG",
-          "value": 1,
-          "name": "UG",
-          "id": 8
-        },
-        "team": null,
-        "user_id": 2,
-        "date": "2025-10-20T17:29:39.103543+00:00",
-        "id": "c5940ece-6aa7-4cf3-9b15-0d1b4757df74",
-        "user": {
-          "name": "Alice",
-          "id": 2
-        },
-        "type": "correct",
-        "ip": null,
-        "challenge_id": 8,
-        "team_id": null,
-        "provided": "Final score: 600",
-        "meta": {
-          "session_user_token": "alice-token-456"
-        }
-      }
     },
     {
-      "award_payload": {
-        "user_id": 2,
-        "team_id": null,
-        "name": "Bonus: JoePardy",
-        "description": "JoePardy systemiin damjuulj ogson bonus onoo",
-        "value": 600,
-        "category": "bonus"
-      },
-      "attempted": true,
-      "status": 500,
-      "body": "{\"message\": \"Internal Server Error\"}\n"
-    },
-    {
-      "success": true,
-      "data": {
-        "challenge": {
-          "category": "UG",
-          "value": 1,
-          "name": "UG",
-          "id": 8
-        },
-        "team": null,
-        "user_id": 1,
-        "date": "2025-10-20T17:45:42.150470+00:00",
-        "id": "efb07e84-d3a4-4572-982f-384a5485fe47",
-        "user": {
-          "name": "Dorjoo",
-          "id": 1
-        },
-        "type": "correct",
-        "ip": null,
-        "challenge_id": 8,
-        "team_id": null,
-        "provided": "Final score: 1000",
-        "meta": {
-          "session_user_token": "abc123"
-        }
-      }
-    },
-    {
-      "award_payload": {
-        "user_id": 1,
-        "team_id": null,
-        "name": "Bonus: JoePardy",
-        "description": "JoePardy systemiin damjuulj ogson bonus onoo",
-        "value": 1000,
-        "category": "bonus"
-      },
-      "attempted": true,
-      "status": 200,
-      "body": "{\"success\": true, \"data\": {\"user_id\": 1, \"team\": null, \"user\": 1, \"name\": \"Bonus: JoePardy\", \"description\": \"JoePardy systemiin damjuulj ogson bonus onoo\", \"category\": \"bonus\", \"value\": 1000, \"team_id\": null, \"type\": \"standard\", \"requirements\": null, \"id\": 22, \"date\": \"2025-10-20T17:45:43.057064+00:00\", \"icon\": null}}\n"
-    },
-    {
-      "success": true,
-      "data": {
-        "challenge": {
-          "category": "UG",
-          "value": 1,
-          "name": "UG",
-          "id": 8
-        },
-        "team": null,
-        "user_id": 1,
-        "date": "2025-10-20T18:09:06.733936+00:00",
-        "id": "e8966b41-5d30-43b2-852b-4b3dfda6682b",
-        "user": {
-          "name": "Dorjoo",
-          "id": 1
-        },
-        "type": "correct",
-        "ip": null,
-        "challenge_id": 8,
-        "team_id": null,
-        "provided": "Final score: 300",
-        "meta": {
-          "session_user_token": "abc123"
-        }
-      }
-    },
-    {
-      "award_payload": {
-        "user_id": 1,
-        "team_id": null,
-        "name": "Bonus: JoePardy",
-        "description": "JoePardy systemiin damjuulj ogson bonus onoo",
-        "value": 300,
-        "category": "bonus"
-      },
-      "attempted": true,
-      "status": 200,
-      "body": "{\"success\": true, \"data\": {\"user_id\": 1, \"team\": null, \"user\": 1, \"name\": \"Bonus: JoePardy\", \"description\": \"JoePardy systemiin damjuulj ogson bonus onoo\", \"category\": \"bonus\", \"value\": 300, \"team_id\": null, \"type\": \"standard\", \"requirements\": null, \"id\": 23, \"date\": \"2025-10-20T18:09:07.587358+00:00\", \"icon\": null}}\n"
-    },
-    {
-      "success": true,
-      "data": {
-        "challenge": {
-          "category": "UG",
-          "value": 1,
-          "name": "UG",
-          "id": 8
-        },
-        "team": null,
-        "user_id": 2,
-        "date": "2025-10-20T18:10:22.604878+00:00",
-        "id": "fcf28f53-107a-48f6-a7f8-66346fbd2723",
-        "user": {
-          "name": "Alice",
-          "id": 2
-        },
-        "type": "correct",
-        "ip": null,
-        "challenge_id": 8,
-        "team_id": null,
-        "provided": "Final score: 1300",
-        "meta": {
-          "session_user_token": "alice-token-456"
-        }
-      }
-    },
-    {
-      "award_payload": {
-        "user_id": 2,
-        "team_id": null,
-        "name": "Bonus: JoePardy",
-        "description": "JoePardy systemiin damjuulj ogson bonus onoo",
-        "value": 1300,
-        "category": "bonus"
-      },
-      "attempted": true,
-      "status": 500,
-      "body": "{\"message\": \"Internal Server Error\"}\n"
-    },
-    {
-      "success": true,
-      "data": {
-        "challenge": {
-          "category": "UG",
-          "value": 1,
-          "name": "UG",
-          "id": 8
-        },
-        "team": null,
-        "user_id": 3,
-        "date": "2025-10-20T18:12:40.029841+00:00",
-        "id": "e41df3e5-2387-4678-a643-6ddff63cab7c",
-        "user": {
-          "name": "Alice",
-          "id": 3
-        },
-        "type": "correct",
-        "ip": null,
-        "challenge_id": 8,
-        "team_id": null,
-        "provided": "Final score: 300",
-        "meta": {
-          "session_user_token": "alice-token-456"
-        }
-      }
-    },
-    {
-      "award_payload": {
-        "user_id": 3,
-        "team_id": null,
-        "name": "Bonus: JoePardy",
-        "description": "JoePardy systemiin damjuulj ogson bonus onoo",
-        "value": 300,
-        "category": "bonus"
-      },
-      "attempted": true,
-      "status": 200,
-      "body": "{\"success\": true, \"data\": {\"user_id\": 3, \"team\": null, \"user\": 3, \"name\": \"Bonus: JoePardy\", \"description\": \"JoePardy systemiin damjuulj ogson bonus onoo\", \"category\": \"bonus\", \"value\": 300, \"team_id\": null, \"type\": \"standard\", \"requirements\": null, \"id\": 25, \"date\": \"2025-10-20T18:12:40.763236+00:00\", \"icon\": null}}\n"
+      "name": "tuuguuu",
+      "token": "sda-243",
+      "user_id": 7,
+      "logged_status": false
     }
   ]
 }

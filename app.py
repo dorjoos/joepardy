@@ -148,13 +148,6 @@ questions = {
                 """, "answer": "d"},
         400: {"question": "Дэлхийн хамтгийн том цөл юу вэ?", "answer": "Антрактид"},
         500: {"question": "Газар дээрх хамгийн хурдан амьтан үчимбэр бол усан доторх хамгийн хурдан амьтан юу вэ?", "answer": "Далбаат загас"}
-    },
-    "General": {
-        100: {"question": "How many sides does a hexagon have?", "answer": "6"},
-        200: {"question": "What is the largest mammal?", "answer": "Blue whale"},
-        300: {"question": "Who painted the Mona Lisa?", "answer": "Leonardo da Vinci"},
-        400: {"question": "What is the chemical formula for water?", "answer": "H2O"},
-        500: {"question": "What year did World War II end?", "answer": "1945"}
     }
 }
 
