@@ -10,13 +10,26 @@ import json
 import logging
 
 logging.basicConfig(level=logging.DEBUG)
+log_file = '/var/log/joepardy.log'
 logger = logging.getLogger(__name__)
 logger.debug("App starting up...")
 
 app = Flask(__name__)
 app.secret_key = "supersecretkey"
 
-# Game duration in seconds (10 minutes)
+file_handler = logging.FileHandler(log_file)
+file_handler.setLevel(logging.DEBUG)  # or INFO, WARNING, etc.
+
+
+formatter = logging.Formatter(
+    '%(asctime)s [%(levelname)s] %(name)s: %(message)s'
+)
+file_handler.setFormatter(formatter)
+
+
+app.logger.addHandler(file_handler)
+app.logger.setLevel(logging.DEBUG)
+
 GAME_DURATION = 60
 
 
